@@ -1,10 +1,11 @@
-#condiciones del scrip para juego de dados:
-#1)Simular el lanzamiento de dos dados de seis caras.
-#2)Para ganar la mano, la suma entre ambos dados debe ser igual a cuatro.
-#3)Si la suma entre ambos dados es menor a cuatro, entonces se pierde esta mano.
-#4)Si la suma entre ambos dados es mayor a cuatro, debe volver a tirar.
+# condiciones del scrip para juego de dados:
+# 1)Simular el lanzamiento de dos dados de seis caras.
+# 2)Para ganar la mano, la suma entre ambos dados debe ser igual a cuatro.
+# 3)Si la suma entre ambos dados es menor a cuatro, entonces se pierde esta mano.
+# 4)Si la suma entre ambos dados es mayor a cuatro, debe volver a tirar.
 
 from random import randint
+
 
 def juego_de_dados():
     dado1 = randint(1, 6)
